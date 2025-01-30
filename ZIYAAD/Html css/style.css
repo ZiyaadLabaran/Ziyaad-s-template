@@ -1,0 +1,35 @@
+body{
+    background-image: url(imgs/images.jpeg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+button{
+color: black;
+size: 50px;
+border-color: brown;
+border-radius: 20px;
+
+}
+header{
+    backdrop-filter: blur(20px);
+    color:blue;
+
+
+}
+h1{
+    text-size-adjust: 40px;
+    color: rgb(189, 38, 197);
+    text-align: center;
+    box-shadow: inset;
+}
+
+
+    
+    
