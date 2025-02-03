@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: rgb(251, 244, 232);
+    padding-bottom: 0.5cm;
+    height: 1.4cm;
+    padding-top: 0.4cm;
+}
+nav a{
+text-align: center; 
+margin-left: 20px;
+color: black;
+}
+nav button{
+    border: 1px solid black;
+    width: 1.3cm;
+    height: 0.7cm;  
+    background-color: transparent; 
+}
+.button-2{
+    color: white;
+    background-color: orange;
+}
+/* first header container */
+ .container{
+    min-height: 100vh;
+    display: flex;
+
+}
+.div1{
+    height: 100vh;
+    width: 750px;
+    background-color: rgb(224, 233, 185);
+    z-index:-1 ;
+    padding-top: 370px;
+    padding-left: 2cm;
+    }
+    .side-buttons{
+    background-color: transparent;
+    height: 0.8cm;
+
+    }
+    .first-button{
+        background-color: orange;
+        color: white;
+        width: 1.3cm;
+        height: 0.8cm;
+        border: 1px solid black;
+    }
+    .second-button{
+    height: 0.8cm;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 2.4cm;
+    }
+
+.div2{
+    height: 100vh;
+    width:760px;
+    background-image: url(imgs/humberger\ man.jpg);
+    background-size: cover;
+}
+/* middle texts */
+.container-2{
+    background-color: rgb(189, 204, 172);
+}
+.upper-text{
+    text-align: center;
+    padding-top: 2cm;
+    font-size: 25px;
+}
+.middle-text{
+    min-height: 70vh;
+    display: flex;
+    gap: 2cm;
+    margin-left: 3cm;
+    justify-content: center;
+}
+.middle-text1{
+   height: 90px;
+   margin-top: 4cm;
+   text-align: center;
+}
+.middle-text2{
+    height: 90px;
+    margin-top: 4cm;
+    text-align: center;
+}
+.middle-text3{
+    height: 90px;
+    margin-top: 4cm;
+    text-align: center;
+}
+.lower-buttons{
+    text-align: center;
+    margin-top: 3cm;
+    width: 2.3cm;
+    height: 0.7cm;
+    background-color: transparent;
+    border: 1px solid black;
+   
+
+}
+.lower-buttons2{
+    text-align: center;
+    margin-top: 3cm;
+    width: 2.3cm;
+    height: 0.7cm;
+    background-color: transparent;
+    border: none;
+}
+.second-section{
+    display: flex;
+    gap: 2cm;
+    padding-left: 8cm;
+    padding-top: 2cm;
+    padding-bottom: 1.7cm;
+}
+.humburger-section{
+    min-height: 120vh;
+    
+}
+.humburger-image{
+    background-image: url(imgs/fresh-tasty-burger-wood-table_135427-7687.jpg);
+    margin-right: 3cm;
+    margin-left: 3cm;
+    height: 15cm; 
+    background-size: cover;
+}
+.lower-humburger{
+    text-align: center;
+}
+.after-humburger{
+    min-height: 90vh;
+}
+.image-contain{
+    display: flex;
+    gap: 2cm;
+    padding-left: 1.5cm;
+    padding-top: 2cm;
+}
+.three-images1{
+    height: 6cm;
+    width: 10cm;
+    background-image: url(imgs/istockphoto-938340724-612x612.jpg);
+    border:2px solid black;
+    background-size: cover;
+
+}
+.three-images2{
+    height: 6cm;
+    width: 10cm;
+   background-size: cover;
+    background-image:url(imgs/depositphotos_11832308-stock-photo-woman.jpg);
+    border:2px solid black;
+}
+.three-images3{
+    height: 6cm;
+    width: 10cm;
+    background-image: url(imgs/ee800693-4d76-46a9-9ebc-b71abeda372a_1920x1080.jpg);
+    border:2px solid black;
+    background-size: cover;
+}
+.B-buttons{
+    text-align: center;  
+}
+ .span{
+    padding-right: 0.5cm;
+}
+.one-item{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 2cm;
+    padding-top: 2cm;
+    
+}
+.pie{
+    background-image: url(imgs/1618423308phpOjlLMq.jpg);
+    height: 10cm;
+    width: 13cm;
+    
+}
+.left-text{
+    padding-top: 4cm;
+}
+ .first{
+    width: 1.5cm;
+    height: 0.9cm;
+    color: white;
+    background-color: rgb(255, 166, 0);
+    border: 1px solid black;
+}
+.second{
+    width: 1.5cm;
+    height: 0.9cm;
+    border: 1px solid black;
+}
+.section-four{
+    min-height: 80vh;
+}
+.four-images{
+    display: flex;
+    gap: 0.5cm;
+    padding-left: 1.5cm;
+}
+.pie-one{
+   background-image: url(imgs/4dfe2b3eee46cbd3886563e77bebb9cd.jpg);
+   background-size: cover;
+    width: 9cm;
+    height: 7cm;
+
+}
+.pie-two{
+    background-image: url(imgs/2q545uh.jpeg);
+    background-size: cover;
+    width: 9cm;
+    height: 7cm;
+}
+.pie-three{
+   background-size: cover; 
+   background-image:url(imgs/Hamburger-and-french-fries-paper-box.webp);
+    width: 9cm;
+    height: 7cm;
+}
+.pie-four{
+    background-image: url(imgs/images.jpeg);
+    background-size: cover;
+    width: 9cm;
+    height: 7cm;
+}
+.shoppy{
+   padding-left: 1.5cm;
+}
+box-icon{
+    padding-top: 1cm;
+
+}
+.last-upper{
+    min-height: 90vh;
+}
+.last-upper2{
+    padding-left: 6cm;
+    
+}
+.four-images-one{
+    display: flex;
+    gap: 0.5cm;
+    padding-left: 1.4cm;
+    text-align: center;
+}
+.pie-one1{
+    background-image: url(imgs/2q545uh.jpeg);
+    width: 9cm;
+    height: 7cm;
+    background-size: cover;
+}
+.pie-two2{
+    background-image: url(imgs/ptjk76.jpg);
+    width: 9cm;
+    height: 7cm;
+    background-size: cover;
+}
+.pie-three3{
+    background-image: url(imgs/100334924-young-man-eating-a-fresh-burger.jpg);
+    width: 9cm;
+    height: 7cm;
+    background-size: cover;
+}
+.three-in{
+    padding-right: 90px;
+    padding-left:0;
+}
+.review{
+    width: 1.4cm;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.viewall{
+    margin-left: 8cm;
+    border: 1px solid black;
+    width: 1.4cm;
+    height: 0.7cm;
+    background-color: transparent;
+}
+.last-last{
+    min-height: 55vh;
+    border-bottom: 2px solid black;
+
+}
+.last-head{
+    display: flex;
+    margin-left: 1cm;
+    gap: 19cm;
+}
+input{
+    height: 0.7cm;
+    width: 5.5cm;
+    padding-left: 0.2cm;
+    border: 1px solid black;
+}
+.star{
+    color: black;
+    text-decoration: underline;
+}
+.join{
+    height: 0.7cm;
+    width: 1.5cm;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.services{
+    display: flex;
+    gap: 4cm;
+    margin-left: 1cm;
+    margin-top: 2cm;
+}
+footer{
+    margin-top: 1cm;
+    margin-left: 0.3cm;
+    min-height: 10vh;
+    display: flex;
+    gap: 19cm;
+}
+.Cookies{
+    margin-left: 0.7cm;
+    text-decoration: underline;
+}
